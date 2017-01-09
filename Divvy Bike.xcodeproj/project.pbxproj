@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7089491DB10E120044BA25 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7089481DB10E120044BA25 /* LocationViewController.swift */; };
+		3FB8922B1DABDDE8002F918F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8922A1DABDDE8002F918F /* DetailViewController.swift */; };
+		3FEADCC21DA7DFE10090CFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADCC11DA7DFE10090CFED /* AppDelegate.swift */; };
+		3FEADCC41DA7DFE10090CFED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADCC31DA7DFE10090CFED /* ViewController.swift */; };
+		3FEADCC71DA7DFE10090CFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEADCC51DA7DFE10090CFED /* Main.storyboard */; };
+		3FEADCC91DA7DFE10090CFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEADCC81DA7DFE10090CFED /* Assets.xcassets */; };
+		3FEADCCC1DA7DFE10090CFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEADCCA1DA7DFE10090CFED /* LaunchScreen.storyboard */; };
+		3FEADCD71DA7DFE20090CFED /* Divvy_BikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADCD61DA7DFE20090CFED /* Divvy_BikeTests.swift */; };
+		3FEADCE21DA7DFE20090CFED /* Divvy_BikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADCE11DA7DFE20090CFED /* Divvy_BikeUITests.swift */; };
+		3FEADCF01DA7E0980090CFED /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADCEF1DA7E0980090CFED /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEADCD31DA7DFE10090CFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEADCB61DA7DFE10090CFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEADCBD1DA7DFE10090CFED;
+			remoteInfo = "Divvy Bike";
+		};
+		3FEADCDE1DA7DFE20090CFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEADCB61DA7DFE10090CFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEADCBD1DA7DFE10090CFED;
+			remoteInfo = "Divvy Bike";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7089481DB10E120044BA25 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		3FB8922A1DABDDE8002F918F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3FEADCBE1DA7DFE10090CFED /* Divvy Bike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Divvy Bike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEADCC11DA7DFE10090CFED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEADCC31DA7DFE10090CFED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FEADCC61DA7DFE10090CFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEADCC81DA7DFE10090CFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEADCCB1DA7DFE10090CFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEADCCD1DA7DFE10090CFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEADCD21DA7DFE10090CFED /* Divvy BikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Divvy BikeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEADCD61DA7DFE20090CFED /* Divvy_BikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divvy_BikeTests.swift; sourceTree = "<group>"; };
+		3FEADCD81DA7DFE20090CFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEADCDD1DA7DFE20090CFED /* Divvy BikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Divvy BikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEADCE11DA7DFE20090CFED /* Divvy_BikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divvy_BikeUITests.swift; sourceTree = "<group>"; };
+		3FEADCE31DA7DFE20090CFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEADCEF1DA7E0980090CFED /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEADCBB1DA7DFE10090CFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEADCCF1DA7DFE10090CFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEADCDA1DA7DFE20090CFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEADCB51DA7DFE10090CFED = {
+			isa = PBXGroup;
+			children = (
+				3FEADCC01DA7DFE10090CFED /* Divvy Bike */,
+				3FEADCD51DA7DFE20090CFED /* Divvy BikeTests */,
+				3FEADCE01DA7DFE20090CFED /* Divvy BikeUITests */,
+				3FEADCBF1DA7DFE10090CFED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEADCBF1DA7DFE10090CFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEADCBE1DA7DFE10090CFED /* Divvy Bike.app */,
+				3FEADCD21DA7DFE10090CFED /* Divvy BikeTests.xctest */,
+				3FEADCDD1DA7DFE20090CFED /* Divvy BikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEADCC01DA7DFE10090CFED /* Divvy Bike */ = {
+			isa = PBXGroup;
+			children = (
+				3FEADCC11DA7DFE10090CFED /* AppDelegate.swift */,
+				3FEADCEF1DA7E0980090CFED /* SwiftyJSON.swift */,
+				3FEADCC31DA7DFE10090CFED /* ViewController.swift */,
+				3FEADCC51DA7DFE10090CFED /* Main.storyboard */,
+				3F7089481DB10E120044BA25 /* LocationViewController.swift */,
+				3FB8922A1DABDDE8002F918F /* DetailViewController.swift */,
+				3FEADCC81DA7DFE10090CFED /* Assets.xcassets */,
+				3FEADCCA1DA7DFE10090CFED /* LaunchScreen.storyboard */,
+				3FEADCCD1DA7DFE10090CFED /* Info.plist */,
+			);
+			path = "Divvy Bike";
+			sourceTree = "<group>";
+		};
+		3FEADCD51DA7DFE20090CFED /* Divvy BikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEADCD61DA7DFE20090CFED /* Divvy_BikeTests.swift */,
+				3FEADCD81DA7DFE20090CFED /* Info.plist */,
+			);
+			path = "Divvy BikeTests";
+			sourceTree = "<group>";
+		};
+		3FEADCE01DA7DFE20090CFED /* Divvy BikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEADCE11DA7DFE20090CFED /* Divvy_BikeUITests.swift */,
+				3FEADCE31DA7DFE20090CFED /* Info.plist */,
+			);
+			path = "Divvy BikeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEADCBD1DA7DFE10090CFED /* Divvy Bike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEADCE61DA7DFE20090CFED /* Build configuration list for PBXNativeTarget "Divvy Bike" */;
+			buildPhases = (
+				3FEADCBA1DA7DFE10090CFED /* Sources */,
+				3FEADCBB1DA7DFE10090CFED /* Frameworks */,
+				3FEADCBC1DA7DFE10090CFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Divvy Bike";
+			productName = "Divvy Bike";
+			productReference = 3FEADCBE1DA7DFE10090CFED /* Divvy Bike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEADCD11DA7DFE10090CFED /* Divvy BikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEADCE91DA7DFE20090CFED /* Build configuration list for PBXNativeTarget "Divvy BikeTests" */;
+			buildPhases = (
+				3FEADCCE1DA7DFE10090CFED /* Sources */,
+				3FEADCCF1DA7DFE10090CFED /* Frameworks */,
+				3FEADCD01DA7DFE10090CFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEADCD41DA7DFE10090CFED /* PBXTargetDependency */,
+			);
+			name = "Divvy BikeTests";
+			productName = "Divvy BikeTests";
+			productReference = 3FEADCD21DA7DFE10090CFED /* Divvy BikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEADCDC1DA7DFE20090CFED /* Divvy BikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEADCEC1DA7DFE20090CFED /* Build configuration list for PBXNativeTarget "Divvy BikeUITests" */;
+			buildPhases = (
+				3FEADCD91DA7DFE20090CFED /* Sources */,
+				3FEADCDA1DA7DFE20090CFED /* Frameworks */,
+				3FEADCDB1DA7DFE20090CFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEADCDF1DA7DFE20090CFED /* PBXTargetDependency */,
+			);
+			name = "Divvy BikeUITests";
+			productName = "Divvy BikeUITests";
+			productReference = 3FEADCDD1DA7DFE20090CFED /* Divvy BikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEADCB61DA7DFE10090CFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rkalvani;
+				TargetAttributes = {
+					3FEADCBD1DA7DFE10090CFED = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U92U7ZL9S5;
+					};
+					3FEADCD11DA7DFE10090CFED = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U92U7ZL9S5;
+						TestTargetID = 3FEADCBD1DA7DFE10090CFED;
+					};
+					3FEADCDC1DA7DFE20090CFED = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U92U7ZL9S5;
+						TestTargetID = 3FEADCBD1DA7DFE10090CFED;
+					};
+				};
+			};
+			buildConfigurationList = 3FEADCB91DA7DFE10090CFED /* Build configuration list for PBXProject "Divvy Bike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEADCB51DA7DFE10090CFED;
+			productRefGroup = 3FEADCBF1DA7DFE10090CFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEADCBD1DA7DFE10090CFED /* Divvy Bike */,
+				3FEADCD11DA7DFE10090CFED /* Divvy BikeTests */,
+				3FEADCDC1DA7DFE20090CFED /* Divvy BikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEADCBC1DA7DFE10090CFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEADCCC1DA7DFE10090CFED /* LaunchScreen.storyboard in Resources */,
+				3FEADCC91DA7DFE10090CFED /* Assets.xcassets in Resources */,
+				3FEADCC71DA7DFE10090CFED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEADCD01DA7DFE10090CFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEADCDB1DA7DFE20090CFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEADCBA1DA7DFE10090CFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7089491DB10E120044BA25 /* LocationViewController.swift in Sources */,
+				3FEADCF01DA7E0980090CFED /* SwiftyJSON.swift in Sources */,
+				3FEADCC41DA7DFE10090CFED /* ViewController.swift in Sources */,
+				3FEADCC21DA7DFE10090CFED /* AppDelegate.swift in Sources */,
+				3FB8922B1DABDDE8002F918F /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEADCCE1DA7DFE10090CFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEADCD71DA7DFE20090CFED /* Divvy_BikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEADCD91DA7DFE20090CFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEADCE21DA7DFE20090CFED /* Divvy_BikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEADCD41DA7DFE10090CFED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEADCBD1DA7DFE10090CFED /* Divvy Bike */;
+			targetProxy = 3FEADCD31DA7DFE10090CFED /* PBXContainerItemProxy */;
+		};
+		3FEADCDF1DA7DFE20090CFED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEADCBD1DA7DFE10090CFED /* Divvy Bike */;
+			targetProxy = 3FEADCDE1DA7DFE20090CFED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEADCC51DA7DFE10090CFED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEADCC61DA7DFE10090CFED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEADCCA1DA7DFE10090CFED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEADCCB1DA7DFE10090CFED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEADCE41DA7DFE20090CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEADCE51DA7DFE20090CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEADCE71DA7DFE20090CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Divvy Bike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RudhraKalvani.Divvy-Bike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FEADCE81DA7DFE20090CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Divvy Bike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RudhraKalvani.Divvy-Bike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FEADCEA1DA7DFE20090CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Divvy BikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RudhraKalvani.Divvy-BikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Divvy Bike.app/Divvy Bike";
+			};
+			name = Debug;
+		};
+		3FEADCEB1DA7DFE20090CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Divvy BikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RudhraKalvani.Divvy-BikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Divvy Bike.app/Divvy Bike";
+			};
+			name = Release;
+		};
+		3FEADCED1DA7DFE20090CFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Divvy BikeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RudhraKalvani.Divvy-BikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Divvy Bike";
+			};
+			name = Debug;
+		};
+		3FEADCEE1DA7DFE20090CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Divvy BikeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RudhraKalvani.Divvy-BikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Divvy Bike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEADCB91DA7DFE10090CFED /* Build configuration list for PBXProject "Divvy Bike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEADCE41DA7DFE20090CFED /* Debug */,
+				3FEADCE51DA7DFE20090CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEADCE61DA7DFE20090CFED /* Build configuration list for PBXNativeTarget "Divvy Bike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEADCE71DA7DFE20090CFED /* Debug */,
+				3FEADCE81DA7DFE20090CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEADCE91DA7DFE20090CFED /* Build configuration list for PBXNativeTarget "Divvy BikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEADCEA1DA7DFE20090CFED /* Debug */,
+				3FEADCEB1DA7DFE20090CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEADCEC1DA7DFE20090CFED /* Build configuration list for PBXNativeTarget "Divvy BikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEADCED1DA7DFE20090CFED /* Debug */,
+				3FEADCEE1DA7DFE20090CFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEADCB61DA7DFE10090CFED /* Project object */;
+}
